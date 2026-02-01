@@ -18,7 +18,8 @@ def texttovoice(filename):
                 speaker.say(full_text)
                 speaker.runAndWait()
             elif choice==2:
-                aud=input("Enter file name for audio to be saved (with .wav extension) : ")
+                aud=input("Enter file name for audio to be saved (with .wav extension for mac / mp3 for others) : ")
+                #mp3 crashes the interactive mode in macOS
                 speaker.save_to_file(full_text,aud)
                 speaker.runAndWait()
                 print("Audio saved successfully...")
