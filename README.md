@@ -34,13 +34,13 @@ git clone [https://github.com/isham461/PDF-to-Audiobook-Converter.git](https://g
 cd PDF-to-Audiobook-Converter
 ```
 
-###2. Install Dependencies
+### 2. Install Dependencies
    Install the necessary Python libraries using pip:
    ```bash
    pip install PyPDF2 pyttsx3
 ```
 
-###3.Run the Application Run the main Python script to start the converter:
+### 3.Run the Application Run the main Python script to start the converter:
 ```bash
 python3 audiobook.py
 ```
